@@ -1,0 +1,22 @@
+# DR Procurement Tracker — configuration
+# This is the ONLY file you should need to edit day-to-day.
+
+# Add or remove phrases here. A process matches if its description
+# contains ANY ONE of these phrases (not all of them). Not case
+# sensitive, not accent sensitive ("aereo" matches "aéreo").
+keywords:
+  - "boleto aereo"
+  - "broadcasting"
+  - "audiovisual"
+
+# A process must show this exact status to be considered.
+required_status: "Proceso publicado"
+
+# Minimum time (in hours) between publish time and bid-submission
+# deadline for a process to be treated as real. Processes below this
+# threshold are skipped -- these are usually already-decided awards
+# posted briefly for transparency compliance, not real opportunities.
+min_hours_window: 2
+
+# Portal URL — the public contract notice search page.
+source_url: "https://comunidad.comprasdominicana.gob.do/Public/Tendering/ContractNoticeManagement/Index?currentLanguage=es-DO"
