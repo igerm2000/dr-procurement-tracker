@@ -1,1 +1,16 @@
-{"alerted_refs": [], "digest_pending": [], "digest_date": null, "excluded_count_today": 0}
+{
+  "alerted_refs": [
+    "INFOTEP-DAF-CD-2026-1272"
+  ],
+  "digest_pending": [
+    {
+      "referencia": "INFOTEP-DAF-CD-2026-1272",
+      "descripcion": "Adquisición de Materiales para Cursos de Drone, Multimedia, Periodismo Digital, Producción y Realización Audiovisual, Cámara e Iluminación, Edición de Imagen y Video, Taller de Audiovisuales (DRM)",
+      "institucion": "Instituto Nacional de formación Técnico Profesional",
+      "matched_keyword": "audiovisual",
+      "fecha_oferta": "2026-08-24 15:00:00"
+    }
+  ],
+  "digest_date": "2026-08-23",
+  "excluded_count_today": 0
+}
