@@ -2,16 +2,7 @@
   "alerted_refs": [
     "MESCYT-DAF-CM-2026-0048"
   ],
-  "pending": [
-    {
-      "referencia": "MESCYT-DAF-CM-2026-0048",
-      "descripcion": "CONTRATACIÓN DE SERVICIOS DE AUDIOVISUALES PARA LA CEREMONIA DE ENTREGA DE BECAS NACIONALES Y DEL PROGRAMA DE BECAS EXCELENCIA SIN BARRERAS, A REQUERIMIENTO/ POR DESMONTE, DIRIGIDO A MIPYMES MUJER",
-      "institucion": "Ministerio de Educación Superior, Ciencia y Tecnología (MESCYT)",
-      "matched_keyword": "audiovisual",
-      "fecha_oferta": "04/09 18:00",
-      "total_estimado": "2,000,000 Pesos Dominicanos"
-    }
-  ],
+  "pending": [],
   "excluded_today": 0,
-  "last_digest_date": null
+  "last_digest_date": "2026-09-01"
 }
