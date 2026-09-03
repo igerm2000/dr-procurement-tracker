@@ -1,27 +1,10 @@
 {
   "alerted_refs": [
-    "MESCYT-DAF-CM-2026-0048",
+    "CONANI-DAF-CM-2026-0023",
     "ISFODOSU-DAF-CM-2026-0228",
-    "CONANI-DAF-CM-2026-0023"
+    "MESCYT-DAF-CM-2026-0048"
   ],
-  "pending": [
-    {
-      "referencia": "ISFODOSU-DAF-CM-2026-0228",
-      "descripcion": "VRA- CONTRATACIÓN AGENCIA PRODUCTORA DE AUDIOVISUAL Y OPERATIVA, PARA LA GRADUACION ORDINARIA OCTUBRE 2026.",
-      "institucion": "Instituto Superior de Formación Docente Salomé Ureña",
-      "matched_keyword": "audiovisual",
-      "fecha_oferta": "09/09 15:00",
-      "total_estimado": "1,600,000 Pesos Dominicanos"
-    },
-    {
-      "referencia": "CONANI-DAF-CM-2026-0023",
-      "descripcion": "ADQUISICIÓN DE AUDIOVISUALES PARA SER UTILIZADOS EN LOS PROGRAMAS DE SENSIBILIZACIÓN CRIANZA POSITIVA  Y PROGRAMA DE FORTALECIMIENTO DE HABILIDADES PARENTALES. (EXCLUSIVO PARA MIPYMES)",
-      "institucion": "Consejo Nacional para la Niñez y la Adolescencia",
-      "matched_keyword": "audiovisual",
-      "fecha_oferta": "10/09 10:30",
-      "total_estimado": "1,284,595.92 Pesos Dominicanos"
-    }
-  ],
-  "excluded_today": 7,
-  "last_digest_date": "2026-09-02"
+  "pending": [],
+  "excluded_today": 0,
+  "last_digest_date": "2026-09-03"
 }
