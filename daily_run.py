@@ -32,7 +32,12 @@ def format_dt(dt):
 
 
 def is_digest_run(now_utc):
-    return now_utc.hour == DIGEST_HOUR_UTC and abs(now_utc.minute - DIGEST_MINUTE_UTC) <= 7
+    # Any run landing in the 22:xx UTC hour is eligible to send -- there
+    # are three scheduled attempts in that hour (6:00, 6:15, 6:30 PM
+    # local), so a single delayed run (GitHub doesn't guarantee exact
+    # scheduled timing) doesn't cause a missed day. The already-sent-today
+    # flag (checked separately) guarantees only one of them actually sends.
+    return now_utc.hour == DIGEST_HOUR_UTC
 
 
 def run():
