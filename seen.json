@@ -1,7 +1,7 @@
 {
   "alerted_refs": [
-    "MESCYT-DAF-CM-2026-0048",
-    "ISFODOSU-DAF-CM-2026-0228"
+    "ISFODOSU-DAF-CM-2026-0228",
+    "MESCYT-DAF-CM-2026-0048"
   ],
   "pending": [
     {
@@ -13,6 +13,6 @@
       "total_estimado": "1,600,000 Pesos Dominicanos"
     }
   ],
-  "excluded_today": 5,
+  "excluded_today": 6,
   "last_digest_date": "2026-09-02"
 }
