@@ -1,8 +1,18 @@
 {
   "alerted_refs": [
-    "MESCYT-DAF-CM-2026-0048"
+    "MESCYT-DAF-CM-2026-0048",
+    "ISFODOSU-DAF-CM-2026-0228"
   ],
-  "pending": [],
-  "excluded_today": 2,
+  "pending": [
+    {
+      "referencia": "ISFODOSU-DAF-CM-2026-0228",
+      "descripcion": "VRA- CONTRATACIÓN AGENCIA PRODUCTORA DE AUDIOVISUAL Y OPERATIVA, PARA LA GRADUACION ORDINARIA OCTUBRE 2026.",
+      "institucion": "Instituto Superior de Formación Docente Salomé Ureña",
+      "matched_keyword": "audiovisual",
+      "fecha_oferta": "09/09 15:00",
+      "total_estimado": "1,600,000 Pesos Dominicanos"
+    }
+  ],
+  "excluded_today": 3,
   "last_digest_date": "2026-09-02"
 }
