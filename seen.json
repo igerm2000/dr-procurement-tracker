@@ -1,29 +1,12 @@
 {
   "alerted_refs": [
-    "ITLA-CCC-CP-2026-0009",
-    "ISFODOSU-DAF-CM-2026-0228",
-    "MESCYT-DAF-CM-2026-0048",
     "MINPRE-DAF-CM-2026-0034",
-    "CONANI-DAF-CM-2026-0023"
+    "CONANI-DAF-CM-2026-0023",
+    "MESCYT-DAF-CM-2026-0048",
+    "ITLA-CCC-CP-2026-0009",
+    "ISFODOSU-DAF-CM-2026-0228"
   ],
-  "pending": [
-    {
-      "referencia": "MINPRE-DAF-CM-2026-0034",
-      "descripcion": "Adquisición de equipos audiovisuales para ser utilizados por la Dirección de Comunicaciones del Ministerio de Presidencia",
-      "institucion": "Ministerio de la Presidencia",
-      "matched_keyword": "audiovisual",
-      "fecha_oferta": "10/09 11:00",
-      "total_estimado": "946,390.28 Pesos Dominicanos"
-    },
-    {
-      "referencia": "ITLA-CCC-CP-2026-0009",
-      "descripcion": "Contratación del Servicios de Audiovisuales para la 21ª Graduación ITLA 2026",
-      "institucion": "Instituto Tecnológico de las Américas",
-      "matched_keyword": "audiovisual",
-      "fecha_oferta": "14/09 13:00",
-      "total_estimado": "5,000,000 Pesos Dominicanos"
-    }
-  ],
-  "excluded_today": 3,
-  "last_digest_date": "2026-09-03"
+  "pending": [],
+  "excluded_today": 0,
+  "last_digest_date": "2026-09-04"
 }
