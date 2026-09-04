@@ -1,10 +1,10 @@
 {
   "alerted_refs": [
-    "MINPRE-DAF-CM-2026-0034",
-    "MESCYT-DAF-CM-2026-0048",
     "ITLA-CCC-CP-2026-0009",
-    "CONANI-DAF-CM-2026-0023",
-    "ISFODOSU-DAF-CM-2026-0228"
+    "MESCYT-DAF-CM-2026-0048",
+    "MINPRE-DAF-CM-2026-0034",
+    "ISFODOSU-DAF-CM-2026-0228",
+    "CONANI-DAF-CM-2026-0023"
   ],
   "pending": [
     {
