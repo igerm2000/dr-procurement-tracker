@@ -1,10 +1,10 @@
 {
   "alerted_refs": [
-    "CONANI-DAF-CM-2026-0023",
-    "MESCYT-DAF-CM-2026-0048",
-    "ISFODOSU-DAF-CM-2026-0228",
     "ITLA-CCC-CP-2026-0009",
-    "MINPRE-DAF-CM-2026-0034"
+    "ISFODOSU-DAF-CM-2026-0228",
+    "MESCYT-DAF-CM-2026-0048",
+    "MINPRE-DAF-CM-2026-0034",
+    "CONANI-DAF-CM-2026-0023"
   ],
   "pending": [
     {
@@ -24,6 +24,6 @@
       "total_estimado": "5,000,000 Pesos Dominicanos"
     }
   ],
-  "excluded_today": 2,
+  "excluded_today": 3,
   "last_digest_date": "2026-09-03"
 }
