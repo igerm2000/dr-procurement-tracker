@@ -1,18 +1,19 @@
 {
   "alerted_refs": [
+    "JMPVL-DAF-CM-2026-0011",
+    "MESCYT-DAF-CM-2026-0048",
+    "FIDEICOMISO-CCC-LPN-2026-0009",
     "ISFODOSU-DAF-CM-2026-0228",
-    "MINPRE-DAF-CM-2026-0034",
+    "MIP-CCC-LPN-2026-0003",
     "SUPBANCO-DAF-CM-2026-0048",
+    "CAASD-DAF-CM-2026-0087",
+    "INCABIDE-DAF-CM-2026-0017",
+    "FONDOMARENA-DAF-CM-2026-0004",
     "SIE-CCC-PEPB-2026-0064",
     "CONANI-DAF-CM-2026-0023",
-    "CAASD-DAF-CM-2026-0087",
-    "JMPVL-DAF-CM-2026-0011",
-    "FONDOMARENA-DAF-CM-2026-0004",
-    "INCABIDE-DAF-CM-2026-0017",
     "ITLA-CCC-CP-2026-0009",
-    "INESPRE-CCC-PEPB-2026-0005",
-    "MIP-CCC-LPN-2026-0003",
-    "MESCYT-DAF-CM-2026-0048"
+    "MINPRE-DAF-CM-2026-0034",
+    "INESPRE-CCC-PEPB-2026-0005"
   ],
   "pending": [
     {
@@ -78,6 +79,14 @@
       "matched_keyword": "publicidad",
       "fecha_oferta": "10/09 15:00",
       "total_estimado": "2,860,000 Pesos Dominicanos"
+    },
+    {
+      "referencia": "FIDEICOMISO-CCC-LPN-2026-0009",
+      "descripcion": "Contratación de servicios de agencia publicitaria para la colocación y distribución de publicidad en medios de comunicación masivos: televisión, radio, prensa y exteriores por un periodo de tres (3) m",
+      "institucion": "FIDEICOMISO Vial RD",
+      "matched_keyword": "comunicación",
+      "fecha_oferta": "22/10 10:00",
+      "total_estimado": "30,000,000 Pesos Dominicanos"
     }
   ],
   "excluded_today": 24,
