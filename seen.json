@@ -1,14 +1,15 @@
 {
   "alerted_refs": [
-    "INESPRE-CCC-PEPB-2026-0005",
-    "MIP-CCC-LPN-2026-0003",
-    "MESCYT-DAF-CM-2026-0048",
     "CONANI-DAF-CM-2026-0023",
-    "JMPVL-DAF-CM-2026-0011",
-    "MINPRE-DAF-CM-2026-0034",
-    "ITLA-CCC-CP-2026-0009",
+    "MESCYT-DAF-CM-2026-0048",
+    "CAASD-DAF-CM-2026-0087",
+    "INESPRE-CCC-PEPB-2026-0005",
     "INCABIDE-DAF-CM-2026-0017",
-    "ISFODOSU-DAF-CM-2026-0228"
+    "MINPRE-DAF-CM-2026-0034",
+    "ISFODOSU-DAF-CM-2026-0228",
+    "ITLA-CCC-CP-2026-0009",
+    "MIP-CCC-LPN-2026-0003",
+    "JMPVL-DAF-CM-2026-0011"
   ],
   "pending": [
     {
@@ -42,8 +43,16 @@
       "matched_keyword": "publicidad",
       "fecha_oferta": "09/09 14:00",
       "total_estimado": "376,648.92 Pesos Dominicanos"
+    },
+    {
+      "referencia": "CAASD-DAF-CM-2026-0087",
+      "descripcion": "Adquisición de Drone y Receptor de GNSS para ser usados por la Dirección de Comunicación",
+      "institucion": "Corporación del Acueducto y Alcantarillado de Santo Domingo",
+      "matched_keyword": "comunicación",
+      "fecha_oferta": "11/09 10:00",
+      "total_estimado": "1,113,600 Pesos Dominicanos"
     }
   ],
-  "excluded_today": 7,
+  "excluded_today": 8,
   "last_digest_date": "2026-09-04"
 }
