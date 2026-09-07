@@ -1,15 +1,16 @@
 {
   "alerted_refs": [
+    "ITLA-CCC-CP-2026-0009",
+    "ISFODOSU-DAF-CM-2026-0228",
+    "SUPBANCO-DAF-CM-2026-0048",
+    "CONANI-DAF-CM-2026-0023",
+    "INESPRE-CCC-PEPB-2026-0005",
     "CAASD-DAF-CM-2026-0087",
     "MINPRE-DAF-CM-2026-0034",
-    "CONANI-DAF-CM-2026-0023",
-    "ISFODOSU-DAF-CM-2026-0228",
-    "INESPRE-CCC-PEPB-2026-0005",
-    "JMPVL-DAF-CM-2026-0011",
     "MIP-CCC-LPN-2026-0003",
     "MESCYT-DAF-CM-2026-0048",
-    "ITLA-CCC-CP-2026-0009",
-    "INCABIDE-DAF-CM-2026-0017"
+    "INCABIDE-DAF-CM-2026-0017",
+    "JMPVL-DAF-CM-2026-0011"
   ],
   "pending": [
     {
@@ -51,8 +52,16 @@
       "matched_keyword": "comunicación",
       "fecha_oferta": "11/09 10:00",
       "total_estimado": "1,113,600 Pesos Dominicanos"
+    },
+    {
+      "referencia": "SUPBANCO-DAF-CM-2026-0048",
+      "descripcion": "[PRESENTAR OFERTA SIN ITBIS] [DIRIGIDO A MIPYMES] Contratación del servicio de audiovisuales, sonido y back panel para la actividad de Reconocimiento Anual al personal de la Superintendencia de Bancos",
+      "institucion": "Superintendencia de Bancos",
+      "matched_keyword": "audiovisual",
+      "fecha_oferta": "11/09 11:30",
+      "total_estimado": "543,850 Pesos Dominicanos"
     }
   ],
-  "excluded_today": 12,
+  "excluded_today": 13,
   "last_digest_date": "2026-09-04"
 }
