@@ -5,10 +5,21 @@
 # contains ANY ONE of these phrases (not all of them). Not case
 # sensitive, not accent sensitive ("aereo" matches "aéreo").
 keywords:
-  - "boleto aereo"
+  - "boleto"
   - "broadcasting"
   - "audiovisual"
-
+  - "comunicación"
+  - "CAMPAÑA INSTITUCIONAL" 
+  - "CREACIÓN Y DIFUSIÓN"
+  - "publicidad"
+  - "TICKETS"
+  - "viaje"
+  - "PASAJES"
+  - "Aereos"
+  - "AÉREO"
+  - "viajes"
+  - "Cobertura"
+  
 # A process must show this exact status to be considered.
 required_status: "Proceso publicado"
 
