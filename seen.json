@@ -1,14 +1,14 @@
 {
   "alerted_refs": [
     "ISFODOSU-DAF-CM-2026-0228",
+    "INESPRE-CCC-PEPB-2026-0005",
     "MIP-CCC-LPN-2026-0003",
     "INCABIDE-DAF-CM-2026-0017",
     "MINPRE-DAF-CM-2026-0034",
-    "CONANI-DAF-CM-2026-0023",
-    "ITLA-CCC-CP-2026-0009",
     "MESCYT-DAF-CM-2026-0048",
+    "ITLA-CCC-CP-2026-0009",
     "JMPVL-DAF-CM-2026-0011",
-    "INESPRE-CCC-PEPB-2026-0005"
+    "CONANI-DAF-CM-2026-0023"
   ],
   "pending": [
     {
@@ -44,6 +44,6 @@
       "total_estimado": "376,648.92 Pesos Dominicanos"
     }
   ],
-  "excluded_today": 5,
+  "excluded_today": 6,
   "last_digest_date": "2026-09-04"
 }
