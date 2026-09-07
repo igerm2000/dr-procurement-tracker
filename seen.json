@@ -1,19 +1,20 @@
 {
   "alerted_refs": [
-    "INESPRE-CCC-PEPB-2026-0005",
-    "ITLA-CCC-CP-2026-0009",
-    "CONANI-DAF-CM-2026-0023",
-    "FONDOMARENA-DAF-CM-2026-0004",
-    "JMPVL-DAF-CM-2026-0011",
-    "MIP-CCC-LPN-2026-0003",
-    "MESCYT-DAF-CM-2026-0048",
-    "SUPBANCO-DAF-CM-2026-0048",
-    "SIE-CCC-PEPB-2026-0064",
     "ISFODOSU-DAF-CM-2026-0228",
-    "INCABIDE-DAF-CM-2026-0017",
-    "CAASD-DAF-CM-2026-0087",
+    "SUPBANCO-DAF-CM-2026-0048",
     "MINPRE-DAF-CM-2026-0034",
-    "FIDEICOMISO-CCC-LPN-2026-0009"
+    "INESPRE-CCC-PEPB-2026-0005",
+    "CONANI-DAF-CM-2026-0023",
+    "MIP-CCC-LPN-2026-0003",
+    "DGAP-DAF-CM-2026-0201",
+    "JMPVL-DAF-CM-2026-0011",
+    "INCABIDE-DAF-CM-2026-0017",
+    "ITLA-CCC-CP-2026-0009",
+    "MESCYT-DAF-CM-2026-0048",
+    "SIE-CCC-PEPB-2026-0064",
+    "CAASD-DAF-CM-2026-0087",
+    "FIDEICOMISO-CCC-LPN-2026-0009",
+    "FONDOMARENA-DAF-CM-2026-0004"
   ],
   "pending": [
     {
@@ -87,8 +88,16 @@
       "matched_keyword": "comunicación",
       "fecha_oferta": "22/10 10:00",
       "total_estimado": "30,000,000 Pesos Dominicanos"
+    },
+    {
+      "referencia": "DGAP-DAF-CM-2026-0201",
+      "descripcion": "Contratación de servicios para la emisión de boletos aéreos y hospedaje para colaboradores de la DGA que participarán en visita técnica al Servicio Nacional de Aduanas de Chile.",
+      "institucion": "Dirección General de Aduanas y Puertos",
+      "matched_keyword": "boleto",
+      "fecha_oferta": "11/09 17:00",
+      "total_estimado": "384,201 Pesos Dominicanos"
     }
   ],
-  "excluded_today": 26,
+  "excluded_today": 27,
   "last_digest_date": "2026-09-04"
 }
