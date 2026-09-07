@@ -1,15 +1,15 @@
 {
   "alerted_refs": [
-    "ISFODOSU-DAF-CM-2026-0228",
-    "ITLA-CCC-CP-2026-0009",
-    "CONANI-DAF-CM-2026-0023",
-    "JMPVL-DAF-CM-2026-0011",
-    "MESCYT-DAF-CM-2026-0048",
-    "INCABIDE-DAF-CM-2026-0017",
-    "MINPRE-DAF-CM-2026-0034",
     "CAASD-DAF-CM-2026-0087",
+    "MINPRE-DAF-CM-2026-0034",
+    "CONANI-DAF-CM-2026-0023",
+    "ISFODOSU-DAF-CM-2026-0228",
+    "INESPRE-CCC-PEPB-2026-0005",
+    "JMPVL-DAF-CM-2026-0011",
     "MIP-CCC-LPN-2026-0003",
-    "INESPRE-CCC-PEPB-2026-0005"
+    "MESCYT-DAF-CM-2026-0048",
+    "ITLA-CCC-CP-2026-0009",
+    "INCABIDE-DAF-CM-2026-0017"
   ],
   "pending": [
     {
@@ -53,6 +53,6 @@
       "total_estimado": "1,113,600 Pesos Dominicanos"
     }
   ],
-  "excluded_today": 11,
+  "excluded_today": 12,
   "last_digest_date": "2026-09-04"
 }
