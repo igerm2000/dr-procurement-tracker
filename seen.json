@@ -1,103 +1,22 @@
 {
   "alerted_refs": [
-    "ITLA-CCC-CP-2026-0009",
-    "ISFODOSU-DAF-CM-2026-0228",
-    "DGAP-DAF-CM-2026-0201",
-    "JMPVL-DAF-CM-2026-0011",
-    "CAASD-DAF-CM-2026-0087",
     "MINPRE-DAF-CM-2026-0034",
-    "INCABIDE-DAF-CM-2026-0017",
-    "CONANI-DAF-CM-2026-0023",
-    "INESPRE-CCC-PEPB-2026-0005",
-    "SUPBANCO-DAF-CM-2026-0048",
-    "MIP-CCC-LPN-2026-0003",
+    "DGAP-DAF-CM-2026-0201",
     "FONDOMARENA-DAF-CM-2026-0004",
-    "FIDEICOMISO-CCC-LPN-2026-0009",
+    "SIE-CCC-PEPB-2026-0064",
+    "JMPVL-DAF-CM-2026-0011",
+    "INCABIDE-DAF-CM-2026-0017",
+    "MIP-CCC-LPN-2026-0003",
+    "ITLA-CCC-CP-2026-0009",
+    "CONANI-DAF-CM-2026-0023",
     "MESCYT-DAF-CM-2026-0048",
-    "SIE-CCC-PEPB-2026-0064"
+    "CAASD-DAF-CM-2026-0087",
+    "INESPRE-CCC-PEPB-2026-0005",
+    "FIDEICOMISO-CCC-LPN-2026-0009",
+    "SUPBANCO-DAF-CM-2026-0048",
+    "ISFODOSU-DAF-CM-2026-0228"
   ],
-  "pending": [
-    {
-      "referencia": "JMPVL-DAF-CM-2026-0011",
-      "descripcion": "ADQUISICION DE TICKETS DE COMBUSTIBLES PARA LA JUNTA MUNICIPAL PALMAREJO VILLA LINDA",
-      "institucion": "Junta Municipal Palmarejo Villa Linda",
-      "matched_keyword": "TICKETS",
-      "fecha_oferta": "15/09 12:00",
-      "total_estimado": "1,080,000 Pesos Dominicanos"
-    },
-    {
-      "referencia": "INCABIDE-DAF-CM-2026-0017",
-      "descripcion": "ADQUISICION TICKETS DE COMBUSTIBLE JULIO-NOVIEMBRE 2026",
-      "institucion": "Instituto Nacional de Custodia y Administración de Bienes Incautados, Decomisados y en Extinción de Dominio.",
-      "matched_keyword": "TICKETS",
-      "fecha_oferta": "11/09 08:00",
-      "total_estimado": "1,467,500 Pesos Dominicanos"
-    },
-    {
-      "referencia": "MIP-CCC-LPN-2026-0003",
-      "descripcion": "CONTRATACION DE SERVICIOS DE GETION INTEGRAL DE MECANICA PREVENTIVA Y REPARACIONES MAYORES  PARA UNIDADES MOTORIZADAS FUERA DE COBERTURA DE FABRICA (POR UN PERIODO DE UN  AÑO)",
-      "institucion": "Ministerio de Interior y Policía",
-      "matched_keyword": "Cobertura",
-      "fecha_oferta": "22/10 10:00",
-      "total_estimado": "10,000,000 Pesos Dominicanos"
-    },
-    {
-      "referencia": "INESPRE-CCC-PEPB-2026-0005",
-      "descripcion": "SERVICIO DE PUBLICIDAD EN PERIODICOS DE CIRCULACION NACIONAL, PARA EL PROCESO DE LICITACIONES DEL INESPRE",
-      "institucion": "Instituto Estabilización de Precios",
-      "matched_keyword": "publicidad",
-      "fecha_oferta": "09/09 14:00",
-      "total_estimado": "376,648.92 Pesos Dominicanos"
-    },
-    {
-      "referencia": "CAASD-DAF-CM-2026-0087",
-      "descripcion": "Adquisición de Drone y Receptor de GNSS para ser usados por la Dirección de Comunicación",
-      "institucion": "Corporación del Acueducto y Alcantarillado de Santo Domingo",
-      "matched_keyword": "comunicación",
-      "fecha_oferta": "11/09 10:00",
-      "total_estimado": "1,113,600 Pesos Dominicanos"
-    },
-    {
-      "referencia": "SUPBANCO-DAF-CM-2026-0048",
-      "descripcion": "[PRESENTAR OFERTA SIN ITBIS] [DIRIGIDO A MIPYMES] Contratación del servicio de audiovisuales, sonido y back panel para la actividad de Reconocimiento Anual al personal de la Superintendencia de Bancos",
-      "institucion": "Superintendencia de Bancos",
-      "matched_keyword": "audiovisual",
-      "fecha_oferta": "11/09 11:30",
-      "total_estimado": "543,850 Pesos Dominicanos"
-    },
-    {
-      "referencia": "FONDOMARENA-DAF-CM-2026-0004",
-      "descripcion": "ADQUISICION DE TICKETS DE COMBUSTIBLE PARA  USO DE LA INSTITUCION",
-      "institucion": "Fondo Nacional Medio Ambiente y Recursos Naturales",
-      "matched_keyword": "TICKETS",
-      "fecha_oferta": "11/09 12:05",
-      "total_estimado": "500,000 Pesos Dominicanos"
-    },
-    {
-      "referencia": "SIE-CCC-PEPB-2026-0064",
-      "descripcion": "“Contratación de los Servicios de Publicidad a través de diversos medios para la difusión de la Campaña Educativa Dominicana Eficiente”",
-      "institucion": "Superintendencia de Electricidad",
-      "matched_keyword": "publicidad",
-      "fecha_oferta": "10/09 15:00",
-      "total_estimado": "2,860,000 Pesos Dominicanos"
-    },
-    {
-      "referencia": "FIDEICOMISO-CCC-LPN-2026-0009",
-      "descripcion": "Contratación de servicios de agencia publicitaria para la colocación y distribución de publicidad en medios de comunicación masivos: televisión, radio, prensa y exteriores por un periodo de tres (3) m",
-      "institucion": "FIDEICOMISO Vial RD",
-      "matched_keyword": "comunicación",
-      "fecha_oferta": "22/10 10:00",
-      "total_estimado": "30,000,000 Pesos Dominicanos"
-    },
-    {
-      "referencia": "DGAP-DAF-CM-2026-0201",
-      "descripcion": "Contratación de servicios para la emisión de boletos aéreos y hospedaje para colaboradores de la DGA que participarán en visita técnica al Servicio Nacional de Aduanas de Chile.",
-      "institucion": "Dirección General de Aduanas y Puertos",
-      "matched_keyword": "boleto",
-      "fecha_oferta": "11/09 17:00",
-      "total_estimado": "384,201 Pesos Dominicanos"
-    }
-  ],
-  "excluded_today": 30,
-  "last_digest_date": "2026-09-04"
+  "pending": [],
+  "excluded_today": 0,
+  "last_digest_date": "2026-09-07"
 }
