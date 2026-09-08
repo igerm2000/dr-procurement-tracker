@@ -1,23 +1,24 @@
 {
   "alerted_refs": [
-    "INCABIDE-DAF-CM-2026-0017",
-    "FIDEICOMISO-CCC-LPN-2026-0009",
-    "DPP-CCC-PEPB-2026-0036",
-    "DPP-CCC-PEPB-2026-0038",
     "DPP-CCC-PEPB-2026-0037",
-    "JMPVL-DAF-CM-2026-0011",
-    "CONANI-DAF-CM-2026-0023",
+    "SIE-CCC-PEPB-2026-0068",
     "ITLA-CCC-CP-2026-0009",
-    "INESPRE-CCC-PEPB-2026-0005",
-    "MINPRE-DAF-CM-2026-0034",
-    "MESCYT-DAF-CM-2026-0048",
-    "CAASD-DAF-CM-2026-0087",
+    "DPP-CCC-PEPB-2026-0036",
     "DGAP-DAF-CM-2026-0201",
-    "SUPBANCO-DAF-CM-2026-0048",
-    "ISFODOSU-DAF-CM-2026-0228",
-    "FONDOMARENA-DAF-CM-2026-0004",
     "SIE-CCC-PEPB-2026-0064",
-    "MIP-CCC-LPN-2026-0003"
+    "FIDEICOMISO-CCC-LPN-2026-0009",
+    "INCABIDE-DAF-CM-2026-0017",
+    "INESPRE-CCC-PEPB-2026-0005",
+    "JMPVL-DAF-CM-2026-0011",
+    "FONDOMARENA-DAF-CM-2026-0004",
+    "ISFODOSU-DAF-CM-2026-0228",
+    "CONANI-DAF-CM-2026-0023",
+    "SUPBANCO-DAF-CM-2026-0048",
+    "MESCYT-DAF-CM-2026-0048",
+    "MIP-CCC-LPN-2026-0003",
+    "DPP-CCC-PEPB-2026-0038",
+    "CAASD-DAF-CM-2026-0087",
+    "MINPRE-DAF-CM-2026-0034"
   ],
   "pending": [
     {
@@ -43,8 +44,16 @@
       "matched_keyword": "comunicación",
       "fecha_oferta": "11/09 08:00",
       "total_estimado": "19,261,400 Pesos Dominicanos"
+    },
+    {
+      "referencia": "SIE-CCC-PEPB-2026-0068",
+      "descripcion": "Contratación de servicios de publicidad legal en medios impresos para publicaciones de la Superintendencia de Electricidad.",
+      "institucion": "Superintendencia de Electricidad",
+      "matched_keyword": "publicidad",
+      "fecha_oferta": "11/09 09:00",
+      "total_estimado": "89,939.36 Pesos Dominicanos"
     }
   ],
-  "excluded_today": 4,
+  "excluded_today": 5,
   "last_digest_date": "2026-09-07"
 }
