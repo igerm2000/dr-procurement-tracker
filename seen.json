@@ -1,25 +1,26 @@
 {
   "alerted_refs": [
-    "ISFODOSU-DAF-CM-2026-0228",
-    "ITLA-CCC-CP-2026-0009",
-    "CONANI-DAF-CM-2026-0023",
-    "DPP-CCC-PEPB-2026-0036",
-    "SIE-CCC-PEPB-2026-0068",
-    "SUPBANCO-DAF-CM-2026-0048",
+    "SIE-CCC-PEPB-2026-0064",
+    "DPP-CCC-PEPB-2026-0037",
     "INESPRE-CCC-PEPB-2026-0005",
     "MIP-CCC-LPN-2026-0003",
-    "FIDEICOMISO-CCC-LPN-2026-0009",
-    "JAC-DAF-CM-2026-0013",
-    "SIE-CCC-PEPB-2026-0064",
-    "MESCYT-DAF-CM-2026-0048",
-    "MINPRE-DAF-CM-2026-0034",
-    "DPP-CCC-PEPB-2026-0037",
-    "DPP-CCC-PEPB-2026-0038",
-    "JMPVL-DAF-CM-2026-0011",
     "INCABIDE-DAF-CM-2026-0017",
-    "CAASD-DAF-CM-2026-0087",
+    "JMPVL-DAF-CM-2026-0011",
+    "ISFODOSU-DAF-CM-2026-0228",
+    "DPP-CCC-PEPB-2026-0038",
     "FONDOMARENA-DAF-CM-2026-0004",
-    "DGAP-DAF-CM-2026-0201"
+    "JAC-DAF-CM-2026-0013",
+    "MINPRE-DAF-CM-2026-0034",
+    "SUPBANCO-DAF-CM-2026-0048",
+    "FIDEICOMISO-CCC-LPN-2026-0009",
+    "CONANI-DAF-CM-2026-0023",
+    "CAASD-DAF-CM-2026-0087",
+    "DPP-CCC-PEPB-2026-0036",
+    "MESCYT-DAF-CM-2026-0048",
+    "DGAP-DAF-CM-2026-0201",
+    "IDAC-CCC-PEPB-2026-0063",
+    "ITLA-CCC-CP-2026-0009",
+    "SIE-CCC-PEPB-2026-0068"
   ],
   "pending": [
     {
@@ -61,8 +62,16 @@
       "matched_keyword": "Aereos",
       "fecha_oferta": "14/09 14:00",
       "total_estimado": "590,650 Pesos Dominicanos"
+    },
+    {
+      "referencia": "IDAC-CCC-PEPB-2026-0063",
+      "descripcion": "Contratación de servicios de publicidad institucional a través de programa radial",
+      "institucion": "Instituto Dominicano de Aviación Civíl",
+      "matched_keyword": "publicidad",
+      "fecha_oferta": "14/09 10:00",
+      "total_estimado": "354,000 Pesos Dominicanos"
     }
   ],
-  "excluded_today": 12,
+  "excluded_today": 13,
   "last_digest_date": "2026-09-07"
 }
