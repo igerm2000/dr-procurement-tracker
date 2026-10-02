@@ -3,10 +3,12 @@ name: Procurement tracker (weekday business-hours check, one daily email)
 on:
   schedule:
     # Mon-Fri, 8:00 AM - 6:30 PM Santo Domingo time (UTC-4, fixed, no DST)
-    # = 12:00 - 22:30 UTC. Split into two lines so it lands exactly on
-    # :30 for the last run rather than overshooting to 6:45 PM.
-    - cron: '*/15 12-21 * * 1-5'   # 8:00 AM - 5:45 PM local, every 15 min
-    - cron: '0,15,30 22 * * 1-5'   # 6:00, 6:15, 6:30 PM local
+    # = 12:00 - 22:30 UTC. Minutes offset to :07/:22/:37/:52 instead of
+    # round numbers (:00/:15/:30/:45) -- those are the most congested
+    # slots on GitHub since virtually every scheduled workflow targets
+    # them, which is why most of our runs were getting dropped.
+    - cron: '7,22,37,52 12-21 * * 1-5'   # ~8:00 AM - 5:52 PM local, every 15 min
+    - cron: '7,22,37 22 * * 1-5'         # ~6:07, 6:22, 6:37 PM local
   workflow_dispatch: {}  # manual runs are unrestricted -- fine to test anytime
 
 jobs:
