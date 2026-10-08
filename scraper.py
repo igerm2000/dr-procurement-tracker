@@ -30,13 +30,16 @@ def parse_dt(raw):
     return datetime(year, month, day, hour, minute)
 
 
-def fetch_html(url, attempts=3, backoff_seconds=15):
+def fetch_html(url, attempts=4, backoff_seconds=20):
     """Retries a few times on timeout/connection errors before giving
     up, so one slow moment from the portal doesn't fail the run."""
     last_error = None
     for attempt in range(1, attempts + 1):
         try:
             resp = requests.get(url, headers=HEADERS, timeout=30)
+            if resp.status_code >= 500:
+                # Portal 5xx (e.g. 503) is transient -- retry like a timeout.
+                raise requests.exceptions.ConnectionError(f"HTTP {resp.status_code}")
             resp.raise_for_status()
             return resp.text
         except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as e:
