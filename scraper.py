@@ -11,6 +11,7 @@ actually holds -- confirmed by comparing timestamps on a live fetch.
 import re
 import time
 import requests
+import urllib3
 from bs4 import BeautifulSoup
 from datetime import datetime
 
@@ -31,17 +32,36 @@ def parse_dt(raw):
 
 
 def fetch_html(url, attempts=4, backoff_seconds=20):
-    """Retries a few times on timeout/connection errors before giving
-    up, so one slow moment from the portal doesn't fail the run."""
+    """Retries on timeouts, connection errors and portal 5xx so one bad
+    moment doesn't fail the run.
+
+    The portal sometimes serves an incomplete TLS certificate chain
+    (CERTIFICATE_VERIFY_FAILED: unable to get local issuer certificate),
+    which browsers tolerate but Python does not. This page is public
+    and read-only and we send no credentials, so after a certificate
+    error we retry unverified rather than lose the whole run."""
     last_error = None
+    verify = True
     for attempt in range(1, attempts + 1):
         try:
-            resp = requests.get(url, headers=HEADERS, timeout=30)
+            resp = requests.get(url, headers=HEADERS, timeout=30, verify=verify)
             if resp.status_code >= 500:
-                # Portal 5xx (e.g. 503) is transient -- retry like a timeout.
                 raise requests.exceptions.ConnectionError(f"HTTP {resp.status_code}")
             resp.raise_for_status()
+            if not verify:
+                print("NOTE: fetched with TLS verification off (portal certificate chain incomplete).")
             return resp.text
+        except requests.exceptions.SSLError as e:
+            last_error = e
+            if verify:
+                print("Attempt %d/%d: certificate error; retrying without verification." % (attempt, attempts))
+                verify = False
+                urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+                continue
+            print(f"Attempt {attempt}/{attempts} failed (SSLError); "
+                  f"{'retrying' if attempt < attempts else 'giving up'}...")
+            if attempt < attempts:
+                time.sleep(backoff_seconds)
         except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as e:
             last_error = e
             print(f"Attempt {attempt}/{attempts} failed ({e.__class__.__name__}); "
