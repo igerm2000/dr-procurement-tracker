@@ -43,9 +43,12 @@ def run():
     with open("config.yaml", encoding="utf-8") as f:
         cfg = yaml.safe_load(f)
 
+    state = load_state()
     try:
         processes = get_current_processes(cfg["source_url"])
+        state["fetch_ok"] = state.get("fetch_ok", 0) + 1
     except Exception as e:
+        state["fetch_fail"] = state.get("fetch_fail", 0) + 1
         # Portal down/blocked this run: don't lose the day. Carry on with
         # nothing new so a digest-eligible run still sends what's pending.
         print(f"WARNING: portal fetch failed ({e.__class__.__name__}: {e}); continuing with 0 processes.")
@@ -62,7 +65,6 @@ def run():
     excluded_now = len(matches) - len(qualifying)
     print(f"{len(matches)} matched keywords, {len(qualifying)} passed all filters.")
 
-    state = load_state()
     new_matches = filter_new(qualifying, state)
     print(f"{len(new_matches)} are new since the last run.")
 
@@ -88,11 +90,14 @@ def run():
     already_sent_today = state.get("last_digest_date") == today_local
 
     if is_digest_run(now_utc) and not already_sent_today:
-        subject, html = digest_email(pending, excluded_today)
+        subject, html = digest_email(pending, excluded_today,
+                                     state.get("fetch_ok", 0), state.get("fetch_fail", 0))
         send_email(subject, html)
         print(f"Sent daily digest: {subject}")
         state["pending"] = []
         state["excluded_today"] = 0
+        state["fetch_ok"] = 0
+        state["fetch_fail"] = 0
         state["last_digest_date"] = today_local
     else:
         print("Not the digest run (or already sent today) -- accumulating only.")
